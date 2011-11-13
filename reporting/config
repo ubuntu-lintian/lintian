@@ -16,7 +16,7 @@ $HTML_TMP_DIR = "$HTML_DIR.new";
 $HARNES_STATE_DIR = "$HOME/harness-state";
 
 # Link to the Lintian source code
-$LINTIAN_SOURCE = "http://anonscm.debian.org/gitweb/?p=lintian/lintian.git";
+$LINTIAN_SOURCE = "https://github.com/ubuntu-lintian/lintian";
 
 $HISTORY = 1;
 $HISTORY_DIR = "$HOME/history";
