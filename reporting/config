@@ -1,15 +1,15 @@
 # Hey emacs! This is a -*- Perl -*- script!
 # config -- configuration file for Lintian reporting harness
 
-$HOME = "/srv/lintian.debian.org";
-$LINTIAN_ARCHIVEDIR = "/srv/ftp.debian.org/ftp";
-$LINTIAN_MIRROR_NAME = "ftp-master.debian.org";
-$LINTIAN_DIST = "sid";
-$LINTIAN_AREA = "main";
+$HOME = "/srv/lintian";
+$LINTIAN_ARCHIVEDIR = "$HOME/archive";
+$LINTIAN_MIRROR_NAME = "cocoplum.canonical.com";
+$LINTIAN_DIST = "saucy";
+$LINTIAN_AREA = "main,restricted,universe,multiverse";
 $LINTIAN_ARCH = "i386";
 
 $LINTIAN_ROOT = "$HOME/root";
-$LINTIAN_LAB = "$HOME/laboratory";
+$LINTIAN_LAB = "$HOME/laboratory/$LINTIAN_DIST";
 $LOG_DIR = "$HOME/logs";
 $HTML_DIR = "$HOME/www";
 $HTML_TMP_DIR = "$HTML_DIR.new";
@@ -18,7 +18,7 @@ $HARNES_STATE_DIR = "$HOME/harness-state";
 # Link to the Lintian source code
 $LINTIAN_SOURCE = "http://anonscm.debian.org/gitweb/?p=lintian/lintian.git";
 
-$HISTORY = 0;
+$HISTORY = 1;
 $HISTORY_DIR = "$HOME/history";
 
 # Whether or not to create graphs from $HISTORY
