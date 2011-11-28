@@ -6,7 +6,7 @@ $LINTIAN_ARCHIVEDIR = "$HOME/archive";
 $LINTIAN_MIRROR_NAME = "cocoplum.canonical.com";
 $LINTIAN_DIST = "saucy";
 $LINTIAN_AREA = "main,restricted,universe,multiverse";
-$LINTIAN_ARCH = "i386";
+$LINTIAN_ARCH = "i386,amd64";
 
 $LINTIAN_ROOT = "$HOME/root";
 $LINTIAN_LAB = "$HOME/laboratory/$LINTIAN_DIST";
